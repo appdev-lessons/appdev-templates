@@ -16,7 +16,7 @@ This lesson details each template and how to make use of them.
 
 As opposed to the graded class projects, which you will begin by clicking a "Load [assignment]" button and forking, for our template repositories, you will manually create your own blank app. 
 
-The steps are covered in the ["`.github.io` personal site lesson"](https://learn.firstdraft.com/lessons/58#generating-from-a-template), but they apply to all of the project templates in general:
+The steps are covered in the ["`.github.io` personal site lesson"](https://learn.firstdraft.com/lessons/58-personal-github-io-site#generating-from-a-template), but they apply to all of the project templates in general:
 
 - Once you have signed in to GitHub, visit the template of your choosing (e.g. [appdev-projects/html-template](https://github.com/appdev-projects/html-template) is a good one for hosting static HTML pages) and click the "Use this template" button, and select "Create a new repository" from the dropdown:
 
@@ -36,7 +36,7 @@ The steps are covered in the ["`.github.io` personal site lesson"](https://learn
 After a moment you will be brought to the new page at `github.com/<your-username>/<name-you-chose>`, with a copy of all the code from that template. You can get to work right away in a new Codespaces workspace. Be patient, it will take about two full minutes to fully prepare, but subsequent boots of the Codespace will be much faster from [your `github.com/codespaces` dashboard](https://github.com/codespaces).
 
 <aside markdown="1">
-You can also work on any project on [Gitpod](https://learn.firstdraft.com/lessons/48), or in a [local setup](https://learn.firstdraft.com/lessons/49), but we recommend sticking with Codespaces as your development environment for now.
+You can also work on any project on [Gitpod](https://learn.firstdraft.com/lessons/48-gitpod-setup), or in a [local setup](https://learn.firstdraft.com/lessons/49-local-setup), but we recommend sticking with Codespaces as your development environment for now.
 </aside>
 
 ### This is not a fork
@@ -55,7 +55,7 @@ What does that mean for us practically?
 When you generate a repository from a template, rather than forking it in the case of the graded projects, the Codespaces hours that you use will be billed to **your personal account rather than the `appdev-projects` organization**. But fear not, all GitHub accounts have 60 free Codespace hours per month included.
 
 <aside markdown="1">
-Technically, all GitHub accounts have 120 free CPU hours (or 180 for Pro accounts) on Codespaces. By default, a new Codespace is generated on a 2-core machine (2 CPUs), hence 120 core hours ➗ 2 cores = 60 hours. You can [increase the number of cores](https://learn.firstdraft.com/lessons/47#increasing-cores-on-a-codespace), but beware of that eating into your free hours significantly.
+Technically, all GitHub accounts have 120 free CPU hours (or 180 for Pro accounts) on Codespaces. By default, a new Codespace is generated on a 2-core machine (2 CPUs), hence 120 core hours ➗ 2 cores = 60 hours. You can [increase the number of cores](https://learn.firstdraft.com/lessons/47-codespaces-setup#increasing-cores-on-a-codespace), but beware of that eating into your free hours significantly.
 </aside>
 
 You can also apply for education benefits on [education.github.com](https://education.github.com/discount_requests/application). Just select "Student" and ideally use a `.edu` email address associated with your school. After a processing period, your account will be upgraded to a free GitHub Pro account, which includes 90 free Codespace hours!
@@ -69,13 +69,13 @@ If you're ever unsure of who is paying for the Codespace hours in a given reposi
 
 ## HTML Template
 
-We made use of the HTML Template beginning in the [deploying static "Hello, World" lesson](https://learn.firstdraft.com/lessons/55), which was actually just a project we generated from that template and added a couple of `rake grade` tests to. It's a good template for creating static HTML + CSS sites and deploying to GitHub Pages.
+We made use of the HTML Template beginning in the [deploying static "Hello, World" lesson](https://learn.firstdraft.com/lessons/55-hello-world), which was actually just a project we generated from that template and added a couple of `rake grade` tests to. It's a good template for creating static HTML + CSS sites and deploying to GitHub Pages.
 
 You can find the repository at:
 
 * [appdev-projects/html-template](https://github.com/appdev-projects/html-template)
 
-If you want to deploy a website from this template, just follow the instructions in the "Hello, World" lesson to [enable GitHub Pages](https://learn.firstdraft.com/lessons/55#enable-github-pages-deployment), and [deploy the app](https://learn.firstdraft.com/lessons/55#deploy).
+If you want to deploy a website from this template, just follow the instructions in the "Hello, World" lesson to [enable GitHub Pages](https://learn.firstdraft.com/lessons/55-hello-world#enable-github-pages-deployment), and [deploy the app](https://learn.firstdraft.com/lessons/55-hello-world#deploy).
 
 ### "Hidden" files
 
@@ -123,7 +123,7 @@ If you want to build your own apps using that Sinatra framework, then we have pr
 
 In this case, we aren't hiding any files from you in the VSCode explorer window. It's time to get used to seeing a whole lot of files, because this is nothing compared to the Rails infrastructure!
 
-If you want to deploy an app based on the Sinatra template, see the instructions for Fly.io deployment for a [non-database dynamic app](https://learn.firstdraft.com/lessons/62#deploying-a-dynamic-sinatra-app), or a [database-backed CRUD app](https://learn.firstdraft.com/lessons/62#deploying-a-crud-sinatra-app).
+If you want to deploy an app based on the Sinatra template, see the instructions for Fly.io deployment for a [non-database dynamic app](https://learn.firstdraft.com/lessons/62-deploying-to-fly#deploying-a-dynamic-sinatra-app), or a [database-backed CRUD app](https://learn.firstdraft.com/lessons/62-deploying-to-fly#deploying-a-crud-sinatra-app).
 
 ## Rails 7 Template
 
@@ -133,4 +133,4 @@ You can find a Rails version 7 template repository at:
 
 * [appdev-projects/rails-7-template](https://github.com/appdev-projects/rails-7-template)
 
-If you want to deploy a CRUD Ruby on Rails app, see the instructions for [Fly.io deployment](https://learn.firstdraft.com/lessons/62#deploying-a-crud-rails-app).
+If you want to deploy a CRUD Ruby on Rails app, see the instructions for [Fly.io deployment](https://learn.firstdraft.com/lessons/62-deploying-to-fly#deploying-a-crud-rails-app).
